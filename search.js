@@ -1,19 +1,19 @@
-const lyrics='Ami tumi Se. ase ki na dekho to. tahole jao giye bari. tata bye'
-const searchString='ami'
-const LowerCase=lyrics.toLowerCase()
-const doesExist=LowerCase.includes(searchString)
-console.log(LowerCase)
-// const doesExists=lyrics.includes(' ')
-// const doesExist=lyrics.indexOf('Ami')
-// console.log(doesExist)
-// let Exist=lyrics.endsWith('to')
-// console.log(Exist)
-//  Exist=lyrics.startsWith('Ami')
-// let age=34
-// age=35
-// console.log(age)
-// var Tammi=1233
-// var Tammi=3444
-// console.log(Tammi)
-// var inDexOF=lyrics.indexOf('To')
-// console.log(inDexOF)
+const lyrics='Ami Tumi Jabo Jannate Inshahallah. Jannat Is The Only Succes.Hereafter is Truth.Be Carefull Fear The Almighty Allah.'
+const searchString='JanNat';
+const searchStringLowerCase=searchString.toLowerCase()
+//1.includesOf..
+const lyricsLowerCase=lyrics.toLowerCase()
+//const doesExit=lyricsLowerCase.includes(searchStringLowerCase)
+const doesExitOneLine=lyrics.toLowerCase().includes(searchString.toLowerCase())
+console.log(doesExitOneLine)
+//2.indexOf..
+console.log(lyrics.indexOf('fear'))
+if(lyrics.indexOf('Fear')!==-1){
+    console.log('Does Exit inside the string')
+}
+else{
+    console.log("Doesn't Exit ")
+}
+//3.startsWith,endsWith
+console.log(lyrics.startsWith('Ami'))
+console.log(lyrics.endsWith('Allah.'))

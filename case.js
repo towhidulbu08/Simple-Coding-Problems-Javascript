@@ -1,9 +1,11 @@
-const userName='blackPinK'
-const userInput='blackPinK'
-console.log(userName.toLocaleLowerCase())
-if(userName.toLocaleLowerCase()===userInput.toLocaleLowerCase()){
-    console.log('Valid Input')
+const userName='blackPink';
+const userInput='blackPinK';
+console.log(userInput.toLowerCase())
+
+if(userName.toLowerCase()===userInput.toLowerCase())
+{
+    console.log('valid User')
 }
 else{
-    console.log("Invalid Input")
+    console.log('Invalid User')
 }
