@@ -3,6 +3,7 @@ function reverseStr(str){
         for(var i=str.length-1;i>=0;i--){
             var element=str[i]
             reverseJoin+=element;
+            console.log(i,reverseJoin)
             
             
         }
